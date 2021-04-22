@@ -40,7 +40,7 @@ gem "kaminari", "~> 1.0", ">= 1.0.1"
 gem "ims-lti", "~> 2.2.3"
 gem "local_time", "~> 2.0"
 
-gem "oauth",           "~> 0.5.4"
+gem "oauth",           "~> 0.5.5"
 gem "octicons_helper", "~> 9.1.1"
 gem "octokit", github: "octokit/octokit.rb"
 gem "octopoller",      "~> 0.1"

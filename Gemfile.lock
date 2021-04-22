@@ -239,7 +239,9 @@ GEM
     mime-types (3.2.2)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2019.0331)
-    mimemagic (0.3.3)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     minitest (5.13.0)
@@ -255,7 +257,7 @@ GEM
     notiffany (0.1.1)
       nenv (~> 0.1)
       shellany (~> 0.0)
-    oauth (0.5.4)
+    oauth (0.5.5)
     oauth2 (1.4.0)
       faraday (>= 0.8, < 0.13)
       jwt (~> 1.0)
@@ -534,7 +536,7 @@ DEPENDENCIES
   local_time (~> 2.0)
   lograge (~> 0.11.2)
   newrelic_rpm (~> 6.5, >= 6.5.0.357)
-  oauth (~> 0.5.4)
+  oauth (~> 0.5.5)
   octicons_helper (~> 9.1.1)
   octokit!
   octopoller (~> 0.1)
